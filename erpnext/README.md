@@ -50,6 +50,14 @@ $ helm --namespace erpnext delete frappe-bench-0001
 
 The command removes all the Kubernetes components associated with the chart and deletes the release.
 
+## Updating the Chart
+
+To update to the latest chart using the correct namespace:
+
+```bash
+$ helm upgrade frappe-bench-0001 frappe/erpnext
+```
+
 ## Parameters
 
 The following table lists the configurable parameters of the ERPNext chart and their default values.
